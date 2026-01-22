@@ -127,7 +127,6 @@ const App = () => {
           <p>{user.first} {user.last}</p>
           <p>{selectedFlight.airline} - {selectedFlight.flightNo}</p>
           <p>RS. {selectedFlight.price}</p>
-
           <button onClick={() => setPage("home")}>
             HOME
           </button>
